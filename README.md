@@ -21,7 +21,7 @@ You can download and run DrMAC as a Python script. Ensure you have Python instal
    ```bash
    chmod +x DrMAC.py
    ```
-
+![DrScan Screenshot](./images/1.jpg)
 ## Usage 🖥️
 
 Run DrMAC from the command line using Python. Here are some common commands:
