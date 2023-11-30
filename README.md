@@ -19,9 +19,9 @@ You can download and run DrMAC as a Python script. Ensure you have Python instal
 2. Give executable permissions to the script:
 
    ```bash
-   chmod +x DrMAC.py
+   dpkg -i drmac_1.0.0_all_linux.deb
    ```
-![DrScan Screenshot](./images/1.jpg)
+![setup DrMac](./images/1.jpg)
 ## Usage 🖥️
 
 Run DrMAC from the command line using Python. Here are some common commands:
@@ -29,26 +29,23 @@ Run DrMAC from the command line using Python. Here are some common commands:
 1. To change the MAC address:
 
    ```bash
-   sudo python3 DrMAC.py -i interface_name -m new_mac_address
+   drmac -h
    ```
-
-2. To reset the MAC address to its original value:
-
-   ```bash
-   sudo python3 DrMAC.py -i interface_name -r
-   ```
+![options](./images/2.jpg)
 
 3. To list all network interfaces:
 
    ```bash
    sudo python3 DrMAC.py -l
    ```
+![list](./images/3.jpg)
 
 4. To show detailed information about a specific interface:
 
    ```bash
-   sudo python3 DrMAC.py -i interface_name -d
+   sudo python3 DrMAC.py -i interface_name -m new_mac
    ```
+![new mac](./images/4.jpg)
 
 ## Contribution 👥
 
