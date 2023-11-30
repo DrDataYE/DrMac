@@ -15,7 +15,7 @@ DrMAC is a powerful and user-friendly tool designed for network administrators a
 
 You can download and run DrMAC as a Python script. Ensure you have Python installed on your system. Follow these simple steps:
 
-1. Download the `DrMAC.py` script from the GitHub repository.
+1. Download the `drmac_1.0.0_all_linux.deb` script from the GitHub repository.
 2. Give executable permissions to the script:
 
    ```bash
