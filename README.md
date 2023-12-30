@@ -36,14 +36,14 @@ Run DrMAC from the command line using Python. Here are some common commands:
 3. To list all network interfaces:
 
    ```bash
-   sudo python3 DrMAC.py -l
+   drmac -l
    ```
 ![list](./images/3.jpg)
 
 4. To show detailed information about a specific interface:
 
    ```bash
-   sudo python3 DrMAC.py -i interface_name -m new_mac
+   sudo drmac -i interface_name -m new_mac
    ```
 ![new mac](./images/4.jpg)
 
